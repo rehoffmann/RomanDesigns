@@ -5,6 +5,11 @@
     --shadow: 0 1px 5px rgba(104, 104, 104, .8);
 }
 
+@font-face {
+    font-family: Outrunner;
+    src: url('https://github.com/rehoffmann/resources/main/AXROutrunner.otf');
+}
+
 html{
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -16,6 +21,10 @@ body{
     margin: 0;
     background-color:black;
     line-height: 1.4;
+}
+
+h1, h2, h3 {
+    font-family: Outrunner, Arial, monospace;
 }
 
 .me{
