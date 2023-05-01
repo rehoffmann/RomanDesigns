@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: Outrunner;
-    src: url('https://github.com/rehoffmann/resources/raw/main/AXROutrunner.otf');
+    src: url('https://raw.githubusercontent.com/rehoffmann/resources/main/NEON%20CLUB%20MUSIC.otf');
 }
 
 html{
@@ -33,4 +33,11 @@ h1, h2, h3 {
     display: block;
     margin: 0 auto;
 
+}
+
+.header{
+    text-align: center; /* Centers the text */
+  font-size: 5em; /* Adjusts the font size to an appropriate header size using em units */
+color: blue;
+  text-shadow: 0 0 5px white; /* Adds a 3px white text shadow */
 }
