@@ -6,13 +6,13 @@
 }
 
 @font-face {
-    font-family: Outrunner;
+    font-family: NeonClub;
     src: url('https://raw.githubusercontent.com/rehoffmann/resources/main/NEON%20CLUB%20MUSIC.otf');
 }
 
 html{
     box-sizing: border-box;
-
+    font-size: 100%; /*set font size on root for rem and em usage*/ 
     color: var(--dark);
 }
 
@@ -20,12 +20,13 @@ html{
 body{
     margin: 0;
     background-color:black;
-    line-height: 1.4;
-    font-family: 'Outrunner', 'Lucida Sans Regular', 'Lucida Grande';
+    line-height: 1;
+    font-size:.75em;
+    font-family: 'NeonClub', 'Lucida Sans Regular', 'Lucida Grande';
 }
 
 h1, h2, h3 {
-    font-family: 'Outrunner', 'Arial', 'monospace';
+    font-family: 'NeonClub', 'Arial', 'monospace';
 }
 
 .me{
@@ -40,4 +41,13 @@ h1, h2, h3 {
   font-size: 5em; /* Adjusts the font size to an appropriate header size using em units */
 color: blue;
   text-shadow: 0 0 5px white; /* Adds a 3px white text shadow */
+}
+
+.subhead{
+    color: white; font-family: monospace, sans-serif; font-size: 1.5rem; text-align: center;
+}
+
+.body{
+    color: white; font-family: monospace, sans-serif; font-size: 1rem; text-align: left; padding: 10px 50px;
+
 }
