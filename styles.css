@@ -33,7 +33,12 @@ h1, h2, h3 {
 
     display: block;
     margin: 0 auto;
+    max-width: 100%;
 
+}
+
+a {
+    color: blue;
 }
 
 .header{
@@ -48,6 +53,6 @@ color: blue;
 }
 
 .body{
-    color: white; font-family: monospace, sans-serif; font-size: 1rem; text-align: left; padding: 10px 50px;
+    color: white; font-family: monospace, sans-serif; font-size: 1.1rem; text-align: left; line-height: 150%; padding: .1rem .5rem;
 
 }
